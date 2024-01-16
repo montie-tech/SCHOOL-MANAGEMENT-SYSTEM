@@ -1,0 +1,60 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url("images/contactus.jpg");
+    background-size: cover;
+    text-align: center;
+    border: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    font-style: var();
+    font-size: xx-large;
+    color: blue;
+}
+
+h1:hover {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+
+h2:hover {
+    color: red;
+}
+
+h3 {
+    text-align: center;
+    font-size: large;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+h3:hover {
+    color: blue;
+}
+
+a {
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 14px;
+    background: white;
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: green;
+}
